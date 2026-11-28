@@ -5,6 +5,7 @@
   --cinza: #F1F3F5;
   --branco: #FFFFFF;
   --texto: #263B53;
+  --azul-texto: #17649A;
 }
 
 * {
@@ -48,7 +49,11 @@ a { text-decoration: none; color: inherit; }
   gap: 25px;
 }
 
-.marca img { width: 190px; display: block; }
+.marca img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
 
 .menu {
   display: flex;
@@ -58,11 +63,11 @@ a { text-decoration: none; color: inherit; }
   font-weight: 700;
 }
 
-.menu a:hover { color: var(--azul); }
+.menu a:hover { color: var(--azul-texto); }
 
 .botao-menu {
   color: white !important;
-  background: var(--azul);
+  background: var(--azul-texto);
   padding: 11px 19px;
   border-radius: 30px;
 }
@@ -87,7 +92,7 @@ a { text-decoration: none; color: inherit; }
 
 .chamada {
   display: inline-block;
-  color: var(--azul);
+  color: var(--azul-texto);
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 1.6px;
@@ -116,7 +121,7 @@ a { text-decoration: none; color: inherit; }
   display: inline-block;
   border: 0;
   border-radius: 30px;
-  background: linear-gradient(100deg, #079be8, #2780c3);
+  background: linear-gradient(100deg, #17649A, #155F91);
   color: white;
   padding: 14px 24px;
   font: inherit;
@@ -241,7 +246,7 @@ a { text-decoration: none; color: inherit; }
 .tela-conteudo a,
 .celular a {
   display: inline-block;
-  background: #078fdf;
+  background: #17649A;
   color: white;
   padding: 8px 14px;
   border-radius: 25px;
@@ -282,7 +287,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .celular-marca {
-  color: var(--azul);
+  color: var(--azul-texto);
   font-size: 12px;
   font-weight: 800;
   margin-bottom: 18px;
@@ -299,7 +304,7 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 10px;
 }
 
-.celular h3 span { color: var(--azul); }
+.celular h3 span { color: var(--azul-texto); }
 
 .celular p {
   font-size: 9px;
@@ -356,7 +361,7 @@ a { text-decoration: none; color: inherit; }
   height: 42px;
   border-radius: 10px;
   background: #e7f3fc;
-  color: var(--azul);
+  color: var(--azul-texto);
   font-weight: 800;
 }
 
@@ -428,7 +433,7 @@ a { text-decoration: none; color: inherit; }
 
 .projeto-categoria {
   display: inline-block;
-  color: var(--azul);
+  color: var(--azul-texto);
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 1.4px;
@@ -450,7 +455,7 @@ a { text-decoration: none; color: inherit; }
 
 .link-projeto {
   display: inline-block;
-  color: var(--azul);
+  color: var(--azul-texto);
   font-weight: 800;
   font-size: 14px;
   transition: color 0.2s;
@@ -539,7 +544,8 @@ form button { margin-top: 22px; }
 }
 
 .rodape img {
-  width: 150px;
+  width: 120px;
+  height: auto;
   border-radius: 3px;
 }
 
@@ -579,7 +585,10 @@ form button { margin-top: 22px; }
   font-size: 20px;
 }
 
-  .marca img { width: 165px; }
+  .marca img {
+  width: 135px;
+  height: auto;
+}
 
   .menu {
     justify-content: center;
